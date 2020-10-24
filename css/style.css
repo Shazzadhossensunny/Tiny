@@ -11,6 +11,7 @@ body{
    font-family: 'PT Sans', sans-serif;
    font-size: 14px;
    line-height: 24px;
+
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -21,7 +22,10 @@ a, a:hover{
 	text-decoration: none;
 }
 
-
+.isStuck{
+    left:0px;
+    width:100%;
+}
 /*****************************************************
                 global css code
 ******************************************************/
@@ -30,6 +34,18 @@ a, a:hover{
 	width: 100%;
 	background: #fcdb00;
 	padding: 20px 0px;
+  
+  
+}
+
+
+.header-section .navbar-wrapper{
+  width: 100%;
+  position: relative;
+  z-index: 15;
+  background: rgba(0, 0, 0, 0.2);
+
+
 }
 
 .header-section .navbar-light .navbar-nav .nav-link {
@@ -42,6 +58,8 @@ a, a:hover{
 .header-section .slider-section{
     width: 100%;
     padding: 60px 0px;
+  
+    
   
 }
 
@@ -258,8 +276,12 @@ color: #b5b5b5;
     font-size: 16px;
     font-weight: 700;
     padding: 8px 30px;
+    transition: 0.3s;
 }
-
+.footer-section .btn-primary:hover{
+  background: transparent;
+  color: #fff;
+}
 .footer-section .social-icon{
 	width: 100%;
 	text-align: center;
@@ -454,6 +476,7 @@ color: #b5b5b5;
 }
 .footer-section .list-group {
     margin-bottom: 20px;
+    text-align: center;
 }
 }
 
@@ -546,6 +569,7 @@ color: #b5b5b5;
 }
 .footer-section .list-group {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 }
