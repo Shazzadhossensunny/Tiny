@@ -554,6 +554,10 @@ color: #b5b5b5;
     font-size: 16px;
     
 }
+.footer-section .social-icon ul li .fa {
+    font-size: 40px;
+    
+}
 
 .footer-section .title {
     padding: 20px 0px;
